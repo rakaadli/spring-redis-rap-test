@@ -20,10 +20,12 @@ public class ProductDao {
     }
 
     public List<Product> findAll(){
+        System.out.println("kalo ini kepanggil berati dia ambil dari DB");
         return template.opsForHash().values(HASH_KEY);
     }
 
     public Product findProductById(int id){
+        System.out.println("kalo ini kepanggil berati dia ambil dari DB");
         return (Product) template.opsForHash().get(HASH_KEY,id);
     }
 

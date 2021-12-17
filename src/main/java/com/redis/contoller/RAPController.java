@@ -13,7 +13,7 @@ import java.util.List;
 //untuk coba2 aja bisa apa nggak (dan ternyata bisa)
 
 @RestController
-@RequestMapping("/raka")
+@RequestMapping("/redis/raka")
 @EnableCaching
 public class RAPController {
     public static final String HASH_KEY = "Product";

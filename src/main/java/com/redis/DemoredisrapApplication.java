@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @SpringBootApplication
-@RestController
-@RequestMapping("/raka")
 public class DemoredisrapApplication {
 
 	public static void main(String[] args) {
